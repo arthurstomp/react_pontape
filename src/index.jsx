@@ -10,5 +10,10 @@ class Index extends React.Component {
   };
 }
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+export default Index
+
+let wrapper = document.getElementById("index")
+if(wrapper) {
+  ReactDOM.render(<Index />, wrapper);
+}
 
