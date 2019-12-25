@@ -29,5 +29,9 @@ class Index extends React.Component<propsType,stateType> {
     )
   }
 }
+export default Index
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+let wrapper: HTMLElement = document.getElementById("index")
+if(wrapper) {
+  ReactDOM.render(<Index />, wrapper);
+}

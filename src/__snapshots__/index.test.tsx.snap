@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render "Hello" 1`] = `
+Array [
+  <h1>
+    Index 
+    hello
+  </h1>,
+  <button
+    onClick={[Function]}
+  >
+    Increment Count
+  </button>,
+]
+`;
